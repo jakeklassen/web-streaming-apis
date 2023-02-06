@@ -1,0 +1,19 @@
+{
+  "name": "gzip-json-stream",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsx src/script.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.11.19",
+    "tsx": "^3.12.3",
+    "typescript": "5.0.0-dev.20221220"
+  }
+}
