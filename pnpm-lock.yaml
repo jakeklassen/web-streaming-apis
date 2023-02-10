@@ -3,12 +3,12 @@ lockfileVersion: 5.4
 specifiers:
   '@types/node': ^18.13.0
   tsx: ^3.12.3
-  typescript: 5.0.0-dev.20230209
+  typescript: 5.0.0-dev.20230210
 
 devDependencies:
   '@types/node': 18.13.0
   tsx: 3.12.3
-  typescript: 5.0.0-dev.20230209
+  typescript: 5.0.0-dev.20230210
 
 packages:
 
@@ -304,8 +304,8 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /typescript/5.0.0-dev.20230209:
-    resolution: {integrity: sha512-EKEs7zC40JV4BTgxULx8oDWSya4r2FeqSVpwuK7ZRu4OBErBo8n59wBAR6r+NBbkxG8JzxMOE2+fazbu/nLi9A==}
+  /typescript/5.0.0-dev.20230210:
+    resolution: {integrity: sha512-FjXPw8PFeIuT1cxouvP4LRu8J1G+FsWVEGwlJ9GcVywRNDfD3Hh6flQFUympS+3QnAIiG/+CHs9ZS2EQIT733g==}
     engines: {node: '>=4.2.0'}
     hasBin: true
     dev: true
