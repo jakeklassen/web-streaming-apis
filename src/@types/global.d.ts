@@ -1,16 +1,7 @@
 export {};
 
 declare global {
-  /**
-   * @see https://github.com/stardazed/sd-streams/blob/master/packages/streams-compression/dist/sd-streams-compression.d.ts
-   */
-  export class DecompressionStream {
-    constructor(format: string);
-
-    readonly readable: ReadableStream<BufferSource>;
-    readonly writable: WritableStream<Uint8Array>;
-  }
-
+  // Looks like this is coming in https://github.com/microsoft/TypeScript/pull/56723
   interface ReadableStream<R = any> {
     /**
      * @see https://github.com/microsoft/TypeScript/issues/29867

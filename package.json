@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "tsx src/script.ts"
+    "start": "node --import tsx src/script.ts"
   },
   "keywords": [],
   "author": "",

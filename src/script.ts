@@ -3,7 +3,7 @@ import { TextLineStream } from "./streams/text-line-stream.js";
 
 // Newline delimited JSON records
 const response = await fetch(
-  "http://files.tmdb.org/p/exports/movie_ids_12_19_2022.json.gz",
+  "http://files.tmdb.org/p/exports/movie_ids_01_01_2024.json.gz",
 );
 
 const stream = response.body
