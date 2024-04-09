@@ -7,7 +7,7 @@ settings:
 devDependencies:
   '@types/node':
     specifier: ^20.11.17
-    version: 20.12.5
+    version: 20.12.6
   tsx:
     specifier: ^4.7.1
     version: 4.7.2
@@ -224,8 +224,8 @@ packages:
     dev: true
     optional: true
 
-  /@types/node@20.12.5:
-    resolution: {integrity: sha512-BD+BjQ9LS/D8ST9p5uqBxghlN+S42iuNxjsUGjeZobe/ciXzk2qb1B6IXc6AnRLS+yFJRpN2IPEHMzwspfDJNw==}
+  /@types/node@20.12.6:
+    resolution: {integrity: sha512-3KurE8taB8GCvZBPngVbp0lk5CKi8M9f9k1rsADh0Evdz5SzJ+Q+Hx9uHoFGsLnLnd1xmkDQr2hVhlA0Mn0lKQ==}
     dependencies:
       undici-types: 5.26.5
     dev: true
