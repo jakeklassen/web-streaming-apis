@@ -13,7 +13,7 @@ importers:
         version: 20.14.0
       tsx:
         specifier: ^4.7.3
-        version: 4.11.0
+        version: 4.11.1
       typescript:
         specifier: 5.4.5
         version: 5.4.5
@@ -177,8 +177,8 @@ packages:
   resolve-pkg-maps@1.0.0:
     resolution: {integrity: sha512-seS2Tj26TBVOC2NIc2rOe2y2ZO7efxITtLZcGSOnHHNOQ7CkiUBfw0Iw2ck6xkIhPwLhKNLS8BO+hEpngQlqzw==}
 
-  tsx@4.11.0:
-    resolution: {integrity: sha512-vzGGELOgAupsNVssAmZjbUDfdm/pWP4R+Kg8TVdsonxbXk0bEpE1qh0yV6/QxUVXaVlNemgcPajGdJJ82n3stg==}
+  tsx@4.11.1:
+    resolution: {integrity: sha512-8ZmVC4OlQipEh3XBclB9YIih1XlNerBJ5NSwo5p76lIWIZdoSF+jFOVm9Gc/FQQ9554mZfxEEq9yTZfdghGYrw==}
     engines: {node: '>=18.0.0'}
     hasBin: true
 
@@ -300,7 +300,7 @@ snapshots:
 
   resolve-pkg-maps@1.0.0: {}
 
-  tsx@4.11.0:
+  tsx@4.11.1:
     dependencies:
       esbuild: 0.20.2
       get-tsconfig: 4.7.5
