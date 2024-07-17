@@ -3,7 +3,7 @@ import { TextLineStream } from "./streams/text-line-stream.js";
 
 // Newline delimited JSON records
 const response = await fetch(
-  "http://files.tmdb.org/p/exports/movie_ids_01_01_2024.json.gz",
+  "https://files.tmdb.org/p/exports/movie_ids_07_01_2024.json.gz",
 );
 
 const stream = response.body
@@ -13,17 +13,10 @@ const stream = response.body
   // The TextLineStream will make sure each chunk is divided by a newline.
   .pipeThrough(new TextLineStream());
 
-let count = 0;
-for await (const item of stream) {
-  if (item === "") continue;
+let movieExportCount = 0;
 
-  try {
-    console.log(JSON.parse(item));
-  } catch (error) {
-    console.error(error, item);
-  }
-
-  ++count;
-
-  if (count > 10) break;
+for await (const _movieExport of stream) {
+  movieExportCount++;
 }
+
+console.log("Movie export count:", movieExportCount);
