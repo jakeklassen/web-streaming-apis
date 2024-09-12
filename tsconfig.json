@@ -6,6 +6,7 @@
     "checkJs": true,
     "module": "NodeNext",
     "noEmit": true,
+    "allowImportingTsExtensions": true,
     "types": ["node"]
   },
   "include": ["src/**/*"]
