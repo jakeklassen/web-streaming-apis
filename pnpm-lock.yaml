@@ -14,7 +14,7 @@ importers:
     devDependencies:
       '@types/node':
         specifier: ^22.8.0
-        version: 22.9.3
+        version: 22.9.4
       tsx:
         specifier: ^4.19.1
         version: 4.19.2
@@ -172,8 +172,8 @@ packages:
     resolution: {integrity: sha512-2X6bvghJ/JAoZO52lbgyAPFj8uCflhTo2g7nkFzEQdXd/D8rEeD4HtmTEpmtGCva260fcd66YNXBOYdnmHqSOg==}
     engines: {node: '>=12'}
 
-  '@types/node@22.9.3':
-    resolution: {integrity: sha512-F3u1fs/fce3FFk+DAxbxc78DF8x0cY09RRL8GnXLmkJ1jvx3TtPdWoTT5/NiYfI5ASqXBmfqJi9dZ3gxMx4lzw==}
+  '@types/node@22.9.4':
+    resolution: {integrity: sha512-d9RWfoR7JC/87vj7n+PVTzGg9hDyuFjir3RxUHbjFSKNd9mpxbxwMEyaCim/ddCmy4IuW7HjTzF3g9p3EtWEOg==}
 
   esbuild@0.23.1:
     resolution: {integrity: sha512-VVNz/9Sa0bs5SELtn3f7qhJCDPCF5oMEl5cO9/SSinpE9hbPVvxbd572HH5AKiP7WD8INO53GgfDDhRjkylHEg==}
@@ -289,7 +289,7 @@ snapshots:
       jsbi: 4.3.0
       tslib: 2.7.0
 
-  '@types/node@22.9.3':
+  '@types/node@22.9.4':
     dependencies:
       undici-types: 6.19.8
 
