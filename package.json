@@ -18,5 +18,10 @@
   },
   "dependencies": {
     "@js-temporal/polyfill": "^0.4.4"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild"
+    ]
   }
 }
