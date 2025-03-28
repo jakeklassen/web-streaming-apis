@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@js-temporal/polyfill':
-        specifier: ^0.4.4
-        version: 0.4.4
+        specifier: ^0.5.0
+        version: 0.5.0
     devDependencies:
       '@types/node':
         specifier: ^22.8.0
@@ -174,8 +174,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@js-temporal/polyfill@0.4.4':
-    resolution: {integrity: sha512-2X6bvghJ/JAoZO52lbgyAPFj8uCflhTo2g7nkFzEQdXd/D8rEeD4HtmTEpmtGCva260fcd66YNXBOYdnmHqSOg==}
+  '@js-temporal/polyfill@0.5.0':
+    resolution: {integrity: sha512-iGNPcSSH3gJzWUy11gXGgplVo1Fe7/qesLa9JIztHF15i8Kn1SE2Kj9xMBsmIHxW2nvqKDMoM3t2WwQzPZk/eg==}
     engines: {node: '>=12'}
 
   '@types/node@22.13.14':
@@ -199,9 +199,6 @@ packages:
 
   resolve-pkg-maps@1.0.0:
     resolution: {integrity: sha512-seS2Tj26TBVOC2NIc2rOe2y2ZO7efxITtLZcGSOnHHNOQ7CkiUBfw0Iw2ck6xkIhPwLhKNLS8BO+hEpngQlqzw==}
-
-  tslib@2.7.0:
-    resolution: {integrity: sha512-gLXCKdN1/j47AiHiOkJN69hJmcbGTHI0ImLmbYLHykhgeN0jVGola9yVjFgzCUklsZQMW55o+dW7IXv3RCXDzA==}
 
   tsx@4.19.3:
     resolution: {integrity: sha512-4H8vUNGNjQ4V2EOoGw005+c+dGuPSnhpPBPHBtsZdGZBk/iJb4kguGlPWaZTZ3q5nMtFOEsY0nRDlh9PJyd6SQ==}
@@ -293,10 +290,9 @@ snapshots:
   '@esbuild/win32-x64@0.25.0':
     optional: true
 
-  '@js-temporal/polyfill@0.4.4':
+  '@js-temporal/polyfill@0.5.0':
     dependencies:
       jsbi: 4.3.0
-      tslib: 2.7.0
 
   '@types/node@22.13.14':
     dependencies:
@@ -340,8 +336,6 @@ snapshots:
   jsbi@4.3.0: {}
 
   resolve-pkg-maps@1.0.0: {}
-
-  tslib@2.7.0: {}
 
   tsx@4.19.3:
     dependencies:
