@@ -1,6 +1,5 @@
-// Literally snagged from 🦕 https://deno.land/std@0.171.0/streams/text_line_stream.ts
-import { TextLineStream } from "./streams/text-line-stream.ts";
 import { Temporal } from "@js-temporal/polyfill";
+import { TextLineStream } from "@std/streams";
 
 const now = Temporal.Now.plainDateISO();
 const targetDate = now

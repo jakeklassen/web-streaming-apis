@@ -17,7 +17,8 @@
     "typescript": "5.8.3"
   },
   "dependencies": {
-    "@js-temporal/polyfill": "^0.5.0"
+    "@js-temporal/polyfill": "^0.5.0",
+    "@std/streams": "jsr:^1.0.9"
   },
   "pnpm": {
     "onlyBuiltDependencies": [
