@@ -17,7 +17,7 @@ importers:
     devDependencies:
       '@types/node':
         specifier: ^24.2.0
-        version: 24.10.1
+        version: 24.10.2
       tsx:
         specifier: ^4.20.1
         version: 4.21.0
@@ -193,8 +193,8 @@ packages:
   '@jsr/std__streams@1.0.9':
     resolution: {integrity: sha512-nPkEijnOPwLQt6ZtvOajE6F2hCmRILaq0kR6I0JFVvxSsvhdeyFMGc8F4DqypCpfq/U+8umLcE0RNMcYdx4NlQ==, tarball: https://npm.jsr.io/~/11/@jsr/std__streams/1.0.9.tgz}
 
-  '@types/node@24.10.1':
-    resolution: {integrity: sha512-GNWcUTRBgIRJD5zj+Tq0fKOJ5XZajIiBroOF0yvj2bSU1WvNdYS/dn9UxwsujGW4JX06dnHyjV2y9rRaybH0iQ==}
+  '@types/node@24.10.2':
+    resolution: {integrity: sha512-WOhQTZ4G8xZ1tjJTvKOpyEVSGgOTvJAfDK3FNFgELyaTpzhdgHVHeqW8V+UJvzF5BT+/B54T/1S2K6gd9c7bbA==}
 
   esbuild@0.27.0:
     resolution: {integrity: sha512-jd0f4NHbD6cALCyGElNpGAOtWxSq46l9X/sWB0Nzd5er4Kz2YTm+Vl0qKFT9KUJvD8+fiO8AvoHhFvEatfVixA==}
@@ -318,7 +318,7 @@ snapshots:
     dependencies:
       '@jsr/std__bytes': 1.0.5
 
-  '@types/node@24.10.1':
+  '@types/node@24.10.2':
     dependencies:
       undici-types: 7.16.0
 
