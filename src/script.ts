@@ -1,4 +1,3 @@
-import { Temporal } from "@js-temporal/polyfill";
 import { TextLineStream } from "@std/streams";
 
 const now = Temporal.Now.plainDateISO();
@@ -22,6 +21,14 @@ const response = await fetch(url, {
     "Accept-Encoding": "gzip",
   },
 });
+
+if (!response.ok) {
+  throw new Error(`Failed to fetch ${url}: ${response.status} ${response.statusText}`);
+}
+
+if (!response.body) {
+  throw new Error(`Response body is null for ${url}`);
+}
 
 const stream = response.body
   .pipeThrough(new DecompressionStream("gzip"))
